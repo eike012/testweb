@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(fonts/Montserrat/static/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-bold';
+    src: url(fonts/Montserrat/static/Montserrat-SemiBold.ttf);
+}
+header{
+    position: relative;
+    text-align: center;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    text-shadow: 1px 1px 4px rgb(49, 49, 49);
+    color: white;
+}
+
+h2{
+    font-family: 'Montserrat-bold', Arial, Helvetica, sans-serif;
+    color: gray;
+}
+p{
+    font-family:'Montserrat', Arial, Helvetica, sans-serif;
+    color: gray;
+    line-height: 1.6;
+    font-size: 0.9em;
+}
+
+em{
+    font-family: 'Montserrat';
+    font-size: 1.2em;
+    color: orange;
+}
+
+.article{
+    display: flex;
+    /*flex-wrap: wrap;*/
+    text-align: justify;
+    justify-content: space-around;
+
+}
