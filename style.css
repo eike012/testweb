@@ -26,7 +26,15 @@ h1{
 h2{
     font-family: 'Montserrat-bold', Arial, Helvetica, sans-serif;
     color: gray;
+}h3{
+    font-family: 'Montserrat-bold', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: gray;
+    padding-bottom: 40px;
+    padding-left: 30px;
 }
+
+
 p{
     font-family:'Montserrat', Arial, Helvetica, sans-serif;
     color: gray;
@@ -60,7 +68,7 @@ em{
 nav{/*padding alterou o posicionamento do h1*/
     padding-top: 20px;
     padding-bottom: 60px;
-    font-family: 'Montserrat-bold';
+    font-family: 'Montserrat-bold', Arial, Helvetica, sans-serif;
     text-align: center;
     /*border-top: solid;*/
     /*margin-top: 25px;*/
@@ -75,16 +83,39 @@ nav{/*padding alterou o posicionamento do h1*/
 .ambiente{
     display: flex;
     justify-content: center;
-    flex-wrap: nowrap;
-    text-align: justify;
+    text-align: center;
     padding-top: 60px;
+    /*flex-wrap: wrap;*/
     /*padding-left: 80px;*/
 }
 
-.item{
-    position: relative;
+
+.descricao{
+    display: flex;
+    margin-right: 80px;
+    margin-left: 80px;
     justify-content: center;
+    text-align: justify;
+    /*padding-left: 60px;*/
+}
+
+.titulo{
+    position: relative;
+    font-size: 12px;
     text-align: center;
+}
+
+
+#vagastitulo{
+    position: relative;
+    font-size: 14px;
+    text-align: center;
+}
+
+#imagem{
+    position: relative;
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 .equipe{
